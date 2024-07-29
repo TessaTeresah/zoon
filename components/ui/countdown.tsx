@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react"
+/*import React, { useState, useEffect } from "react"
 
 const COUNTDOWN_TARGET = new Date("2024-09-30T23:59:59"); // Corrected date
 
@@ -50,3 +50,5 @@ const Countdown = () => {
 };
 
 export default Countdown;
+
+*/

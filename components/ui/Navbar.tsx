@@ -2,6 +2,7 @@ import React from 'react'
 import { FaFacebook, FaTwitterSquare } from 'react-icons/fa'
 import { Button } from "@/components/ui/button"
 import { FiMenu } from 'react-icons/fi'
+import Link from 'next/link'
 
 
 const navbar = () => {
@@ -11,7 +12,8 @@ const navbar = () => {
         <div className='flex p-4 justify-between'>
             <div className=''>zoon</div>
             <div className='flex gap-3 flex-row '>
-                <FiMenu/>
+                <Link href="" className=''><FiMenu/></Link>
+                
                 <FaTwitterSquare/>
                <FaFacebook/> 
             </div>
